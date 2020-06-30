@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   anyo:number = new Date().getFullYear();
+  title:string = "SICINET";
 
   constructor() { }
 
